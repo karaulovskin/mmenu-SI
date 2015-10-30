@@ -1,3 +1,5 @@
+<!-- npm i -->
+
 required: ruby;
 
 1. gem install compass
