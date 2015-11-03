@@ -7,14 +7,14 @@ footer.footer
 					.logo__text cooltech
 			.footer__right
 				ul.socials.socials_footer
-					- var item = ['fb', 'vk', 'tw']
+					- var items = ['fb', 'vk', 'tw']
 					each item in items
 						li(class="socials__item socials__item_" + item)
 							a(href="#").socials__link
 				ul.footer__nav
 					- var items = ["Планшеты", "Мобильные телефоны", "Мр3 плееры", "Персональные компьютеры", "Аксессуары", "Бытовая техника"]
 					each item in items
-						li.foo ter__nav-item
+						li.footer__nav-item
 							a(href="#").footer__nav-link= item
 	.footer__bootom
 		.conteiner
