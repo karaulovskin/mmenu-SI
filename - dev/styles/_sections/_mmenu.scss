@@ -1,0 +1,105 @@
+/*-------------- MY -----------------*/
+.mmenu__item--top {
+	background: #097386;
+}
+
+.mmenu__item--bottom {
+	background: #fff;
+
+	.mmenu__link,
+	.user__phone-text,
+	.user__phone-number {
+		color: #8a8989 !important;
+	}
+
+	.user__phone-text {
+	    font-weight: bold;
+    	font-size: 10px;
+    	color: #666 !important;
+	}
+
+	.user__phone-number {
+		font-weight: bold;
+    	font-size: 21px;
+		color: #333 !important;
+	}
+}
+
+.mmenu__link,
+.mmenu__sub-link,
+.mmenu__inner-link {
+	position: relative;
+	padding-left: 54px !important;
+    color: #fff !important;
+}
+
+.mmenu__link--input {
+	background: url(../img/icons/login.png) no-repeat 15px 10px;
+}
+
+.mmenu__link--registration {
+	background: url(../img/icons/registration.png) no-repeat 18px 10px;
+}
+
+.mmenu__link--basket {
+	background: url(../img/icons/active-button-icon.png) no-repeat 15px 10px;
+}
+
+.mmenu__link--pending {
+	background: url(../img/icons/pending-button-icon.png) no-repeat 19px 10px;
+}
+
+.mmenu__link--shipping {
+	background: url(../img/icons/top-nav__item-icon-1.png) no-repeat 15px 10px;
+}
+
+.mmenu__link--payment {
+	background: url(../img/icons/top-nav__item-icon-2.png) no-repeat 15px 10px;
+}
+
+.mmenu__link--contracts {
+	background: url(../img/icons/top-nav__item-icon-3.png) no-repeat 19px 10px;
+}
+
+.mmenu__link--discounts {
+	background: url(../img/icons/top-nav__item-icon-4.png) no-repeat 17px 10px;
+}
+
+.mmenu__link--contacts {
+	background: url(../img/icons/top-nav__item-icon-6.png) no-repeat 15px 10px;
+}
+
+.mmenu__link--jobs {
+	background: url(../img/icons/add-user.png) no-repeat 17px 10px;
+}
+
+.mmenu__link--support {
+	background: url(../img/icons/top-nav__item-icon-8.png) no-repeat 15px 10px;
+}
+
+.user__phone-text {
+	font-size: 12px;
+}
+
+.mmenu__sub-link {
+	color: inherit;
+}
+
+
+/*-------------- VENDOR -----------------*/
+
+.mm-menu.mm-theme-dark {
+    background: #fff;
+}
+
+.mm-navbar {
+	background: #097386;
+}
+
+.mm-title {
+	color: #fff !important;
+}
+
+.mm-listview>li:not(.mm-divider):after {
+	left: 0;
+}
